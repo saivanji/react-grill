@@ -1,6 +1,6 @@
 {
   "name": "react-grill",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React draggable and resizable grid",
   "author": "aiven715",
   "license": "MIT",
@@ -9,12 +9,14 @@
   "esmodule": "lib/index.modern.js",
   "unpkg": "lib/index.umd.js",
   "source": "src/index.js",
-  "files": ["./lib"],
+  "files": [
+    "./lib"
+  ],
   "scripts": {
-    "build": "rimraf ./lib && microbundle --jsx React.createElement"
+    "build": "rimraf ./lib && microbundle --jsx React.createElement --jsxFragment React.Fragment"
   },
   "dependencies": {
-    "react-shifted": "^0.0.2"
+    "react-shifted": "^0.0.3"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.10.4",

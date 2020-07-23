@@ -2709,10 +2709,10 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-react-shifted@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/react-shifted/-/react-shifted-0.0.2.tgz#d10f268eac3622a48a2f663038c70998c77748e4"
-  integrity sha512-tokK8jsMbOmrHoXLfDRvN5KHYxPtXOx9HXCnRIsidFif/9ey2XeXswwQjHSW8pga4pah1cQPqijwfTuVTU8e5A==
+react-shifted@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-shifted/-/react-shifted-0.0.3.tgz#41eef41fef892b1f52d87faeb7da6a69347b3498"
+  integrity sha512-weHdlO0NYcJPnbhJ9KtALXG+Z86bJ/71ekTI3wU3LBd1oK4w6FdMLBHpEnujNoJNB4VB/tPOTYlItjyfFEWXWA==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
