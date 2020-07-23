@@ -1633,7 +1633,7 @@ gensync@^1.0.0-beta.1:
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
   integrity sha512-r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==
 
-glob@^7.1.2:
+glob@^7.1.2, glob@^7.1.3:
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
@@ -2709,10 +2709,10 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-react-shifted@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/react-shifted/-/react-shifted-0.0.1.tgz#2b108b146b04d82201c57195cb9a21eb817b03a8"
-  integrity sha512-mfvEowybXypFI2v/iSK81r3H0ktzx4zSchxkTM9c0rGwbv8OMyFDbjcvASe8yKF9cHxyc+uzFVvrLYxCpxUdUQ==
+react-shifted@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-shifted/-/react-shifted-0.0.2.tgz#d10f268eac3622a48a2f663038c70998c77748e4"
+  integrity sha512-tokK8jsMbOmrHoXLfDRvN5KHYxPtXOx9HXCnRIsidFif/9ey2XeXswwQjHSW8pga4pah1cQPqijwfTuVTU8e5A==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
@@ -2800,6 +2800,13 @@ rgba-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
+
+rimraf@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
+  dependencies:
+    glob "^7.1.3"
 
 rollup-plugin-bundle-size@^1.0.1:
   version "1.0.3"
