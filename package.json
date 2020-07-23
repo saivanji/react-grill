@@ -9,7 +9,9 @@
   "esmodule": "lib/index.modern.js",
   "unpkg": "lib/index.umd.js",
   "source": "src/index.js",
-  "files": ["./lib"],
+  "files": [
+    "./lib"
+  ],
   "scripts": {
     "build": "microbundle"
   },
@@ -17,6 +19,7 @@
     "react-shifted": "^0.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
     "microbundle": "^0.12.3"
   },
   "peerDependencies": {
